@@ -20,13 +20,20 @@ class Car:
        self._color = new_color
 
 
-a = Car("Civic", 2020, "Black")
+      
 
 
-print(a._status)
+   def new_car(self, new_model, new_year, new_color):
+      self._model = new_model
+      self._year = new_year
+      self._color = new_color
+      self._status = "Off"
 
-a.paint("White")
-a.display_information()
+
+
+
+
+
     
 
 
