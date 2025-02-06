@@ -9,16 +9,15 @@ class Car:
    def start(self):
         return self._start
 
-   @start.setter
-   def start(self):
-      if self._start == "On":
-          self._start = "Off"
-      elif self._start == "Off":
-          self._start = "On"
 
    def display_information(self):
        return print(f"Your Car is a {self._model}, year {self._year}, color {self._color}")
 
+
+a = Car("Civic", 2020, "Black")
+
+print(a.start)
+print(a.display_information())
     
 
 
