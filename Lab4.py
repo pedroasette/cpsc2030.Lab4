@@ -9,6 +9,9 @@ class Car:
    def start(self):
         return self._start
 
+   def turn_off(self):
+      self._start = "Off"
+
 
    def display_information(self):
        return print(f"Your Car is a {self._model}, year {self._year}, color {self._color}")
@@ -19,8 +22,7 @@ class Car:
 
 a = Car("Civic", 2020, "Black")
 
-print(a.start)
-a.display_information()
+
     
 
 
