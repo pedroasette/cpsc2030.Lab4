@@ -16,5 +16,10 @@ class Car:
       elif self._start == "Off":
           self._start = "On"
 
+   def display_information(self):
+       return print(f"Your Car is a {self._model}, year {self._year}, color {self._color}")
+
+    
+
 
   
