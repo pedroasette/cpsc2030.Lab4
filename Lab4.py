@@ -25,7 +25,8 @@ a = Car("Civic", 2020, "Black")
 
 print(a._status)
 
-
+a.paint("White")
+a.display_information()
     
 
 
