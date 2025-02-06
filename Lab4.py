@@ -3,14 +3,14 @@ class Car:
        self._model = model
        self._year = year
        self._color = color
-       self._start = "On"
+       self._status = "Off"
 
-   @property
+   
    def start(self):
-        return self._start
-
+        self._status = "On"
+   
    def turn_off(self):
-      self._start = "Off"
+      self._status = "Off"
 
 
    def display_information(self):
@@ -21,6 +21,9 @@ class Car:
 
 
 a = Car("Civic", 2020, "Black")
+
+
+print(a._status)
 
 
     
