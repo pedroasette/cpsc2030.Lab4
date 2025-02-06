@@ -29,6 +29,13 @@ class Car:
       self._color = new_color
       self._status = "Off"
 
+a = Car("Civic", 2020, "white")
+
+a.new_car("Mustang", 2018, "black")
+
+a.display_information()
+
+
 
 
 
